@@ -20,7 +20,7 @@ function MoviesPage({ movies }) {
 
       {/* we can use the current URL from the `match` object as part of the path; this will generate a url like "/movies/:movieId" */}
 
-      <Route path={`${match.url}/:movieId`}>
+      <Route path={`${match.url}/:movie_Id`}>
         <MovieShow movies={movies}/>
       </Route>
     </div>
